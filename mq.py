@@ -738,9 +738,9 @@ async def maxgieBot(op):
                          "size":"full",
                          "action": {
                              "type": "uri",
-                             "uri": "line://ti/p/~nonbysignal"
-                     #      
-                     #   "
+                             "uri": "line://ti/p/~anony.th"
+                           
+                        "
                          }
                     },
                 }
@@ -810,7 +810,7 @@ async def maxgieBot(op):
                          "action": {
                              "type": "uri",
                              "uri": "line://ti/p/~nonbysignal"
-                           #"
+                           "
                          }
                     },
                 }
@@ -1084,9 +1084,9 @@ async def maxgieBot(op):
                     return
                 if text.lower() == "ประกาศ":
                     sa="วิธีใช้ ประกาศกลุ่ม >\\<"
-                    sa+="\n- ประกาศ ข้อความ/ไอดีไลน์"
+                    sa+="\n- ประกาศ ข้อความ/"
                     sa+="\nตัวอย่าง >\\<"
-                    sa+="\n- ประกาศ มอนิ่ง/nonbysignal"
+                    sa+="\n- ประกาศ มอนิ่ง/"
                     data = {"type": "text","text": "{}".format(sa),"sentBy": {"label": " 🇹🇭✯TєαмlЗσ†✳️ŀloκaÐıw✯🇹🇭 ", "iconUrl": "https://obs.line-scdn.net/{}".format(maxgie.getContact(maxgieMID).pictureStatus),"linkUrl": "line://nv/profilePopup/mid=ubded88d0491b56e25a590ebebbfeadcb"}}
                     sendTemplate(to,data)
                 if text.lower() == "ตั้งapi":
@@ -1152,7 +1152,7 @@ async def maxgieBot(op):
                             "type": "bubble",
                             "styles": {
                                 "body": {
-                                    "backgroundColor": '#EE1289'
+                                    "backgroundColor": '#7FFF00'
                                 },
                             },
                             "hero": {
@@ -3083,7 +3083,7 @@ async def maxgieBot(op):
                             sendTemplate(to, data)
                 if text.lower() == "เรา":
                     contact = maxgie.getContact(sender)
-                    sendTemplate(to,{"type":"flex","altText": "🇹🇭✯TєαмlЗσ†✳️ŀloκaÐıw✯🇹🇭","contents":{"type":"bubble","footer":{"type":"box","layout":"horizontal","contents":[{"color":"#333333","size":"xs","wrap":True,"action":{"type":"uri","uri":"https://sv1.picz.in.th/images/2019/07/11/KBst8Z.jpg"},"type":"text","text":"🇹🇭✯TєαмlЗσ†✳️ŀloκaÐıw✯🇹🇭","align":"center","weight":"bold"},{"type":"separator","color":"#FF3333"},{"color":"#FF3333","size":"xs","wrap":True,"action":{"type":"uri","uri":"line://nv/profilePopup/mid=ubded88d0491b56e25a590ebebbfeadcb"},"type":"text","text":"ผู้สร้าง","align":"center","weight":"bold"}]},"styles":{"footer":{"backgroundColor":"#000000"},"body":{"backgroundColor":"#CCFFFF"}},"body":{"type":"box","contents":[{"type":"box","contents":[{"type":"separator","color":"#FF3333"},{"aspectMode":"cover","gravity":"bottom","aspectRatio":"1:1","size":"sm","type":"image","url":"https://sv1.picz.in.th/images/2019/07/11/KBst8Z.jpg"},{"type":"separator","color":"#FF3333"},{"type":"image","aspectMode":"cover","aspectRatio":"1:1","size":"sm","url":"https://sv1.picz.in.th/images/2019/07/11/KBst8Z.jpg"},{"type":"separator","color":"#FF3333"},{"type":"image","aspectMode":"cover","aspectRatio":"1:1","size":"sm","url":"https://img.live/images/2019/02/10/1549778907829.jpg"},{"type":"separator","color":"#FF3333"},{"type":"image","aspectMode":"cover","aspectRatio":"1:1","size":"sm","url":"https://sv1.picz.in.th/images/2019/07/11/KBst8Z.jpg"},{"type":"separator","color":"#FF3333"}],"layout":"vertical","spacing":"none","flex":1},{"type":"separator","color":"#FF3333"},{"type":"box","contents":[{"type":"separator","color":"#FF3333"},{"color":"#FF3333","size":"md","wrap":True,"type":"text","text":" 🇹🇭✯TєαмlЗσ†✳️ŀloκaÐıw✯🇹🇭","weight":"bold"},{"type":"separator","color":"#FF3333"},{"color":"#FF3333","size":"md","wrap":True,"type":"text","text":"{}".format(contact.displayName),"weight":"bold"},{"type":"separator","color":"#FF3333"},{"color":"#FF3333","size":"xs","wrap":True,"type":"text","text":"Status Profile:","weight":"bold"},{"type":"text","text":"{}".format(contact.statusMessage),"size":"xxs","wrap":True,"color":"#FF3333"}],"layout":"vertical","flex":2}],"layout":"horizontal","spacing":"md"},"hero":{"aspectMode":"cover","margin":"xxl","aspectRatio":"1:1","size":"full","type":"image","url":"https://obs.line-scdn.net/{}".format(contact.pictureStatus)}}})            
+                    sendTemplate(to,{"type":"flex","altText": "🇹🇭✯TєαмlЗσ†✳️ŀloκaÐıw✯🇹🇭","contents":{"type":"bubble","footer":{"type":"box","layout":"horizontal","contents":[{"color":"#333333","size":"xs","wrap":True,"action":{"type":"uri","uri":"https://sv1.picz.in.th/images/2019/07/11/KBst8Z.jpg"},"type":"text","text":"🌐ਙণՃণՁๅʨട🔯❍Ձთๅລ௮Ҩๅℓиω🇹🇭","align":"center","weight":"bold"},{"type":"separator","color":"#FF3333"},{"color":"#FF3333","size":"xs","wrap":True,"action":{"type":"uri","uri":"line://nv/profilePopup/mid=ubded88d0491b56e25a590ebebbfeadcb"},"type":"text","text":"ผู้สร้าง","align":"center","weight":"bold"}]},"styles":{"footer":{"backgroundColor":"#000000"},"body":{"backgroundColor":"#CCFFFF"}},"body":{"type":"box","contents":[{"type":"box","contents":[{"type":"separator","color":"#FF3333"},{"aspectMode":"cover","gravity":"bottom","aspectRatio":"1:1","size":"sm","type":"image","url":"https://sv1.picz.in.th/images/2019/07/11/KBst8Z.jpg"},{"type":"separator","color":"#FF3333"},{"type":"image","aspectMode":"cover","aspectRatio":"1:1","size":"sm","url":"https://sv1.picz.in.th/images/2019/07/11/KBst8Z.jpg"},{"type":"separator","color":"#FF3333"},{"type":"image","aspectMode":"cover","aspectRatio":"1:1","size":"sm","url":"https://img.live/images/2019/02/10/1549778907829.jpg"},{"type":"separator","color":"#FF3333"},{"type":"image","aspectMode":"cover","aspectRatio":"1:1","size":"sm","url":"https://sv1.picz.in.th/images/2019/07/11/KBst8Z.jpg"},{"type":"separator","color":"#FF3333"}],"layout":"vertical","spacing":"none","flex":1},{"type":"separator","color":"#FF3333"},{"type":"box","contents":[{"type":"separator","color":"#FF3333"},{"color":"#FF3333","size":"md","wrap":True,"type":"text","text":" 🇹🇭✯TєαмlЗσ†✳️ŀloκaÐıw✯🇹🇭","weight":"bold"},{"type":"separator","color":"#FF3333"},{"color":"#FF3333","size":"md","wrap":True,"type":"text","text":"{}".format(contact.displayName),"weight":"bold"},{"type":"separator","color":"#FF3333"},{"color":"#FF3333","size":"xs","wrap":True,"type":"text","text":"Status Profile:","weight":"bold"},{"type":"text","text":"{}".format(contact.statusMessage),"size":"xxs","wrap":True,"color":"#FF3333"}],"layout":"vertical","flex":2}],"layout":"horizontal","spacing":"md"},"hero":{"aspectMode":"cover","margin":"xxl","aspectRatio":"1:1","size":"full","type":"image","url":"https://obs.line-scdn.net/{}".format(contact.pictureStatus)}}})            
                 elif text.lower() == "/runtime" or text.lower() == "/ออน":
                     timeNow = time.time() - Start
                     runtime = timeChange(timeNow)
@@ -4861,7 +4861,7 @@ async def maxgieBot(op):
                     c = cg.mid
                     name = cg.displayName
                     pp = cg.pictureStatus
-                 #   profile = "https://profile.line-scdn.net/" + str(pp)
+                    profile = "https://profile.line-scdn.net/" + str(pp)
                     data = {
                         "type": "flex",
                         "altText": "แอดกลุ่ม",
@@ -4875,7 +4875,7 @@ async def maxgieBot(op):
                                         "type":"text",
                                         "text": "🇹🇭✯TєαмlЗσ†✳️ŀloκaÐıw✯🇹🇭",
                                         "size":"md",
-                                       # "weight":"bold",
+                                        "weight":"bold",
                                         "color":"#FF3333",
                                         "align":"center"
                                     },
@@ -4907,7 +4907,7 @@ async def maxgieBot(op):
                     maxgie.sendContact(to, c)
                 elif text.lower() == 'ไอดีกลุ่ม':
                     gid = maxgie.getGroup(to)
-                  #  
+                    
                     maxgie.unsendMessage(msg_id)
                     duc1(to, "{ Group ID }\n" + gid.id)
                     maxgie.sendMessage(to, maxgie.getGroup(to).name, contentMetadata = {'previewUrl': 'http://dl.profile.line-cdn.net/'+maxgie.getGroup(to).pictureStatus, 'i-installUrl': 'https://line.me/ti/p/~', 'type': 'mt', 'subText': "🇹🇭✯TєαмlЗσ†✳️ŀloκaÐıw✯🇹🇭", 'a-installUrl': 'https://line.me/ti/p/~', 'a-installUrl': ' https://line.me/ti/p/~', 'a-packageName': 'com.spotify.music', 'countryCode': 'ID', 'a-linkUri': 'https://line.me/ti/p/~', 'i-linkUri': 'https://line.me/ti/p/~', 'id': 'mt000000000a6b79f9', 'text': '🇹🇭✯TєαмlЗσ†✳️ŀloκaÐıw✯🇹🇭', 'linkUri': 'https://line.me/ti/p/~'}, contentType=19)
@@ -4970,7 +4970,7 @@ async def maxgieBot(op):
                     ret_ += "\n╠ จำนวนค้างเชิญ : {}".format(gPending)
                     ret_ += "\n╠ ลิ้งของกลุ่ม : {}".format(gQr)
                     ret_ += "\n╠ ลิ้งกลุ่ม👉 : {}".format(gTicket)
-                    ret_ += "\n╚══『🇹🇭✯TєαмlЗσ†✳️ŀloκaÐıw✯🇹🇭』"
+                    ret_ += "\n╚══『🇹🇭TєαмlЗσ†✳️ŀloκaÐıw🇹🇭』"
                     data = {
                         "type": "flex",
                         "altText": "กลุ่ม",
@@ -4985,11 +4985,11 @@ async def maxgieBot(op):
                                 "type": "box",
                                 "layout": "vertical",
                                 "contents": [
-                            #        {
-                            #            "type": "image",
-                            #            "url": path, 
-                            #            "size": "xl"
-                            #        },
+                                    {
+                                        "type": "image",
+                                        "url": "path", 
+                                        "size": "xl"
+                                    },
                                     {
                                         "type": "text",
                                         "text": ret_,
@@ -5121,12 +5121,12 @@ async def maxgieBot(op):
                         num=(num+1)
                     msgs+="\n☢️รายชื่อเพื่อนทั้งหมด☢️\n\nมีดังต่อไปนี้ : %i" % len(kontak)
                     maxgie.sendMessage(msg.to, msgs)
-            #      if msg.toType == 2:                
+                  if msg.toType == 2:                
 #
-             #              ginfo = line.getGroup(receiver)
-             #              try:
-             #                  gcmid = ginfo.creator.mid
-             #              except:
+          #                 ginfo = line.getGroup(receiver)
+          #                 try:
+          #                     gcmid = ginfo.creator.mid
+           #                except:
              #                  gcmid = "Error"
              #              if settings["lang"] == "JP":
              #                  line.inviteIntoGroup(receiver,[gcmid])
