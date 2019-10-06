@@ -2,7 +2,7 @@
     "Leave": true,
     "Sticker": false,
     "Wc": false,
-    "Welcome": false,
+    "Welcome": true,
     "access_key": "0066725464abd96d2cee00863ad9067f",
     "access_token": "ec6a73ed66f5704bf4d071a2174fb736238aaeb6",
     "addContact": {
@@ -26,24 +26,18 @@
         "u1d4f6d2ef884cbfa1f04e71136c3c09f"
     ],
     "ani_guess": [
-        "u1d4f6d2ef884cbfa1f04e71136c3c09f"
+        "c9a9f741633543d70449a7d9801cbbd28"
     ],
     "apiKey": "8e3cf182-807a-4186-9261-a6c8741a9237",
-    "autoAdd": true,
-    "autoCancel": {
-        "members": "5",
-        "on": true
-    },
+    "autoAdd": false,
     "autoJoin": false,
     "autoJoinTicket": false,
-    "autoLeave": true,
-    "autoLeave1": false,
+    "autoLeave": false,
     "autoRead": false,
     "autoRead1": false,
     "autoRestart": false,
     "autoblock": true,
-    "autojoin": true,
-    "autolike": true,
+    "autolike": false,
     "botMute": [],
     "botOff": [],
     "changeCover": false,
@@ -63,8 +57,8 @@
     "checkContact": false,
     "checkPost": false,
     "checkSticker": false,
-    "com": true,
-    "commet": "🇹🇭✯TєαмlЗσ†✳️ŀloκaÐıw✯🇹🇭",
+    "com": false,
+    "commet": "auto like by : ꧁༺ช.ป๋อ ฮอก่ะดิ้ว༻꧂>_<",
     "content": {
         "sam": [
             "u1d4f6d2ef884cbfa1f04e71136c3c09f",
@@ -112,15 +106,15 @@
         "copy": false,
         "status": true,
         "target": {
-            "u1d4f6d2ef884cbfa1f04e71136c3c09f": true
+            "": true
         }
     },
     "myProfile": {
         "coverId": "u1d4f6d2ef884cbfa1f04e71136c3c09f",
         "coverStatus": "",
         "displayName": "꧁༺ช.ป๋อ ฮอก่ะดิ้ว༻꧂",
-        "pictureStatus": "0h8tKZlw9dZ1t2I03mCrwYDEpmaTYBDWETDkYqO1snaWlfRCANHhJ_PgdzbTheRyQITRApaFV2O2sI",
-        "statusMessage": "",
+        "pictureStatus": "0ht_SAKwkPK3BuOABiew9UJ1J9JR0ZFi04FgpkQk07ckRCDm10UQ5sFhtsfUETXWQvAQwxExhqIRBL",
+        "statusMessage": "\nਙণՃণՁๅʨട🔯❍Ձთๅລ௮Ҩๅℓиω\nਟੂпજণধさุஇnีနัπਹՁനণਙℓռឃ\n🇹🇭",
         "videoProfile": null
     },
     "notag": false,
@@ -130,7 +124,7 @@
     "publicMode": false,
     "qrprotect": false,
     "readerPesan": "Gw @!, Kang Sider",
-    "reply": "🇹🇭✯TєαмlЗσ†✳️ŀloκaÐıw✯🇹🇭",
+    "reply": "แทคในกลุ่มมีไรปะครับ >_<",
     "replys": false,
     "resendChat": false,
     "responGc": false,
