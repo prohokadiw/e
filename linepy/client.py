@@ -6,7 +6,6 @@ from .talk import Talk
 from .square import Square
 from .call import Call
 from .timeline import Timeline
-from .shop import Shop
 
 class LINE(Auth, Models, Talk, Square, Call, Timeline):
 
@@ -32,4 +31,3 @@ class LINE(Auth, Models, Talk, Square, Call, Timeline):
         Square.__init__(self)
         Call.__init__(self)
         Timeline.__init__(self)
-
