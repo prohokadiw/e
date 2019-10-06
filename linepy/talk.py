@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta, date
 import json, ntpath, humanize, traceback, os, subprocess
 import time,random,sys,json,requests,os,subprocess,re,ast,traceback,humanize,threading,base64
-from tmp.MySplit import MySplit
+#from tmp.MySplit import MySplit
 def loggedIn(func):
     def checkLogin(*args, **kwargs):
         if args[0].isLogin:
@@ -907,10 +907,6 @@ class Talk(object):
         return self.updateProfile(profile)
 
     """Group"""
-    @loggedIn
-    def getRecentMessagesV2(self, chatId, count=1001):
-        return self.talk.getRecentMessagesV2(chatId,count)    
-    
     @loggedIn
     def getChatRoomAnnouncementsBulk(self, chatRoomMids):
         return self.talk.getChatRoomAnnouncementsBulk(chatRoomMids)
