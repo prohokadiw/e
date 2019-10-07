@@ -2019,7 +2019,7 @@ async def maxgieBot(op):
                     }
                     sendTemplate(to, data)
                     restartBot()
-                if text.lower() == "speed" or text.lower() == "sp" or text.lower() == "/สปีด":
+                if text.lower() == "วัดรอบ" or text.lower() == "ทดสอบ" or text.lower() == "/สปีด":
                     start = time.time()
                     maxgie.sendMessage("u1d4f6d2ef884cbfa1f04e71136c3c09f","speed...")
                     elapsed_time = time.time() - start
